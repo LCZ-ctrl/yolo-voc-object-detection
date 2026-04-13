@@ -9,6 +9,7 @@ I'm using `PyTorch 2.10.0+cu128` in `Python 3.12.0`.
 | YOLOv2 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80     | multi-scale | 416x416   | 73.87%  | 66.06%  | 44.44%   |
 | YOLOv3 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80     | multi-scale | 416x416   | 81.57%  | 75.89%  | 54.48%   |
 | YOLOv4 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80     | multi-scale | 416x416   | 84.32%  | 79.66%  | 63.55%   |
+| YOLOv5 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80     | multi-scale | 416x416   | 84.31%  | 80.03%  | 65.39%   |
 
 ## Requirements
 ```
@@ -80,6 +81,16 @@ It will randomly select an image in the test set, and then output the model's pr
   <img src="./yolov4/images/football.png" height="200" />
   <br>
   <em><strong>YOLOv4 Results</strong></em>
+</p>
+<br>
+<p align="center">
+  <img src="./yolov5/images/su7.png" height="200" />
+  <img src="./yolov5/images/sofa.png" height="200" />
+  <br>
+  <img src="./yolov5/images/ducati.png" height="200" />
+  <img src="./yolov5/images/horse.png" height="200" />
+  <br>
+  <em><strong>YOLOv5 Results</strong></em>
 </p>
 
 ## Acknowledgement
