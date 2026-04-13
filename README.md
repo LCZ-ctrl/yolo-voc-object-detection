@@ -3,13 +3,13 @@
 This is a repo about modified implementation of YOLO family written in PyTorch from scratch, and it's also the first time I try to implement an object detection model myself.  
 I'm using `PyTorch 2.10.0+cu128` in `Python 3.12.0`.  
 
-| Model  | Train Dataset                       | Val Dataset  | Epochs | Input Size  | Test Size | mAP@0.5 | mAP@0.6 | mAP@0.75 |
-|:-------|:------------------------------------|:-------------|:-------|:------------|:----------|:--------|:--------|:---------|
-| YOLOv1 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80     | multi-scale | 416x416   | 69.77%  | 61.51%  | 38.92%   |
-| YOLOv2 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80     | multi-scale | 416x416   | 73.87%  | 66.06%  | 44.44%   |
-| YOLOv3 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80     | multi-scale | 416x416   | 81.57%  | 75.89%  | 54.48%   |
-| YOLOv4 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80     | multi-scale | 416x416   | 84.32%  | 79.66%  | 63.55%   |
-| YOLOv5 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80     | multi-scale | 416x416   | 84.31%  | 80.03%  | 65.39%   |
+| Model  | Epochs | Input Size  | Test Size | mAP@0.5 | mAP@0.6 | mAP@0.75 |
+|:-------|:-------|:------------|:----------|:--------|:--------|:---------|
+| YOLOv1 | 80     | multi-scale | 416x416   | 69.77%  | 61.51%  | 38.92%   |
+| YOLOv2 | 80     | multi-scale | 416x416   | 73.87%  | 66.06%  | 44.44%   |
+| YOLOv3 | 80     | multi-scale | 416x416   | 81.57%  | 75.89%  | 54.48%   |
+| YOLOv4 | 80     | multi-scale | 416x416   | 84.32%  | 79.66%  | 63.55%   |
+| YOLOv5 | 80     | multi-scale | 416x416   | 84.31%  | 80.03%  | 65.39%   |
 
 ## Requirements
 ```
